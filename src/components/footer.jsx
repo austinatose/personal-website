@@ -123,7 +123,7 @@ const Footer = () => {
     <Container id="footer">
       <Profile>
         <Slide direction="right" delay={1}>
-          <h1>Portfolio</h1>
+          <h1>Austin Liu</h1>
         </Slide>
         <div className="address">
           <Slide direction="right">
