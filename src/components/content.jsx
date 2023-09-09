@@ -1,16 +1,27 @@
 // content.js
 import React from 'react';
-import '../css/content.css';
 import styled from 'styled-components';
+import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
+const ContentWrapper = styled.div`
+  position: relative;
+  background: #F2F2F4;
+  height: 90vh;
+`;
+
+const BigText = styled.h1`
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+`;
 
 const Content = () => {
   return (
-    // massive padding to hold space
-    <>
-        <h1 style={{padding: 1000}}>YO</h1>
-        <h1 style={{padding: 5}}>YO</h1>
-    </>
+    <ContentWrapper>
+      <BigText>Content</BigText>
+    </ContentWrapper>
   );
 };
 

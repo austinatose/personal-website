@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub } from "react-icons/ai";
-import { BsFacebook, BsSlack, BsFillArrowUpCircleFill } from "react-icons/bs";
+import { BsReddit, BsTwitter, BsFillArrowUpCircleFill } from "react-icons/bs";
 import { FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
 
-const Container = styled.div`
+const FooterWrapper = styled.div`
   margin-top: 2rem;
   position: relative;
   padding: 2rem 0;
@@ -120,7 +120,7 @@ const Footer = () => {
     });
   };
   return (
-    <Container id="footer">
+    <FooterWrapper id="footer">
       <Profile>
         <Slide direction="right" delay={1}>
           <h1>Austin Liu</h1>
@@ -158,12 +158,12 @@ const Footer = () => {
         </div>
         <div className="profiles">
           <Slide direction="right">
-            <h1>Check out my profiles</h1>
+            <h1>Check out my profiles:</h1>
           </Slide>
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/NeeNawAmbulance">
                   <AiFillGithub />
                 </a>
               </span>
@@ -171,14 +171,14 @@ const Footer = () => {
             <Zoom>
               <span>
                 <a href="/">
-                  <BsFacebook />
+                  <BsReddit />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
                 <a href="/">
-                  <BsSlack />
+                  <BsTwitter />
                 </a>
               </span>
             </Zoom>
@@ -190,7 +190,7 @@ const Footer = () => {
           </ArrowUp>
         </Fade>
       </Profile>
-    </Container>
+    </FooterWrapper>
   );
 };
 

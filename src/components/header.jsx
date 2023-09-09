@@ -1,23 +1,41 @@
 // Header.js
 import React from 'react';
+import { Slide } from 'react-awesome-reveal';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.header`
-  background-color: #000;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+  display: flex;
+  background-color: #fff;
+  text-align: left;
+  vertical-align: middle;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0rem;
 `;
 
 const Title = styled.h1`
-  font-size: 2rem;
-  font-weight: bold;
+  padding-left: 1rem;
+  vertical-align: middle;
+`;
+
+const HeaderElement = styled.h3`
+  margin: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  padding-left: 2rem;
+  &:hover {
+    opacity: 0.5;
+  }
 `;
 
 const Header = () => {
   return (
     <HeaderWrapper>
-      <Title>Austin Liu</Title>
+      <Slide direction="down" triggerOnce>
+        <Title>Austin Liu</Title>
+        <HeaderElement href='#footer'>Contact Me</HeaderElement>
+      </Slide>
     </HeaderWrapper>
   );
 };
