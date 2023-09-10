@@ -125,12 +125,9 @@ const Footer = () => {
         <Slide direction="right" delay={1}>
           <h1>Austin Liu</h1>
         </Slide>
-        <div className="address">
-          <Slide direction="right">
-            <h1>Address:</h1>
-          </Slide>
+        <div className="school">
           <Slide direction="left">
-            <p>47 Goodman Road, Singapore 439063</p>
+            <p>Raffles Institution, Class of 2026</p>
           </Slide>
         </div>
         <div className="links">
@@ -152,7 +149,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:austinliuzirui@gmail.com">austinliuzirui@gmail.com</a>
+              <a href="mailto:alzr2008@gmail.com">alzr2008@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -170,14 +167,14 @@ const Footer = () => {
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://reddit.com/u/apexassasinedgy">
                   <BsReddit />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://twitter.com/austinatose">
                   <BsTwitter />
                 </a>
               </span>

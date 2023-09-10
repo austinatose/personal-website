@@ -1,8 +1,10 @@
 // Layout.js
 import React from 'react';
-import Header from './components/header';
+// import Header from './components/header';
 import Footer from './components/footer';
-import Content from './components/content';
+import Content1 from './components/content1';
+import Content2 from './components/content2';
+import Content3 from './components/content3';
 // import About from './About';
 // import Projects from './Projects';
 // import Contact from './Contact';
@@ -11,8 +13,9 @@ import Content from './components/content';
 const Layout = () => {
   return (
     <div>
-      <Header/>
-      <Content/>
+      <Content1/>
+      <Content2/>
+      <Content3/>
       <Footer/>
     </div>
   );
@@ -20,7 +23,7 @@ const Layout = () => {
 
 export default Layout;
 
-// <About />
-// <Projects />
-// <Contact />
-// <Footer />
+// <Header/>
+// <Content1/>
+// <Content2/>
+// <Footer/>
