@@ -135,14 +135,6 @@ const Footer = () => {
             <h1>Contact me:</h1>
           </Slide>
           <div>
-            <span>
-              <FiPhoneCall />
-            </span>
-            <Slide direction="left">
-              <a href="tel:+6583866868">+65 8386 6868</a>
-            </Slide>
-          </div>
-          <div>
             <Slide direction="left">
               <span>
                 <HiOutlineMailOpen />
